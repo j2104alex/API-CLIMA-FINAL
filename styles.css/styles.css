@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.thunderstorm {
+    background: #ffe259;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.drizzle {
+    background: #5433FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.rain {
+    background: #314755;
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2193b0, #6dd5ed);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.snow {
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.catastrofe {
+    background: #9796f0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.clear {
+    background: #EDE574;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E1F5C4, #EDE574);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.clouds {
+    background: #acb6e5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+    background-color: rgba(34, 49, 133, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    transition: .3s;
+    border-top: 3px solid #fff0;
+    border-bottom: 3px solid rgba(34, 49, 133, 0.094);
+}
+
+.navbar a:hover {
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+    transition: .3s;
+    border-top: 3px solid #fff0;
+    border-bottom: 3px solid rgb(34, 49, 133);
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(7, 11, 33, 0);
+    color: #000;
+    font-family: cursive;
+    justify-content: center;
+    display: flex;
+}
+
+.footer a {
+    color: #000;
+    text-align: center;
+    padding: .2em;
+    text-decoration: none;
+    transition: .3s;
+    border-top: 3px solid rgba(34, 49, 133, 0.094);
+}
+
+.contenedor {
+    background-color: rgba(34, 49, 133, 0.094);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.panel-consulta {
+    text-align: center;
+}
+
+.panel-resultado {
+    margin-top: 1em;
+    font-size: large;
+}
+
+.panel-info {
+    margin-top: 1em;
+    color: rgb(161, 0, 0);
+}

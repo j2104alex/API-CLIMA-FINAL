@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="./styles.css/styles.css">
+    <link src="./js/script.js">
+</head>
+
+<body>
+    <main class="" id="back-ground">
+        <nav class="navbar sticky">
+            <a href="#">Home</a>
+            <a href="#">¿Quienes somos?</a>
+            <a href="#">Valores corporativos</a>
+            <a href="#">Misión y visión</a>
+        </nav>
+        <article class="contenedor">
+            <section class="panel-consulta">
+                <input type="text" id="campo-ciudad" placeholder="Ingresar ciudad">
+                <input id="button" type="button" onclick="consultarCiudad()" value="Consultar">
+            </section>
+
+            <section class="panel-resultado">
+                <label id="latitud" for="latitud">Latitud:</label><br>
+                <label id="longitud" for="longitud">Longitud:</label><br>
+                <label id="temperatura" for="temperatura">Temperatura:</label><br>
+                <label id="estado" for="estado">Estado:</label>
+                <img id="icon" class="icon">
+            </section>
+
+            <section class="panel-info">
+                <label for="informacion" id="info"></label>
+            </section>
+        </article>
+        <footer class="footer">
+            <a href="./paginas/identidad.html">Contactate con nosotros</a>
+            <a href="https://www.exito.com/" target="_blank">Redes sociales</a>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
